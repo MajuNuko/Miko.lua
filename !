@@ -10,7 +10,7 @@ local Window = Library:CreateWindow({
     -- Position and Size are also valid options here
     -- but you do not need to define them unless you are changing them :)
 
-    Title = MIKO AA.LUA',
+    Title = 'Miko.lua',
     Center = true, 
     AutoShow = true,
 })
@@ -208,7 +208,7 @@ RightGroupBox:AddSlider('FOV', {
 
     Default = 0,
     Min = 0,
-    Max = 750,
+    Max = 150
     Rounding = 0,
 
     Compact = false, -- If set to true, then it will hide the label
@@ -255,7 +255,7 @@ RightGroupBox:AddSlider('FOVTrans', {
 Library:SetWatermarkVisibility(true)
 
 -- Sets the watermark text
-Library:SetWatermark('MIKO.lua')
+Library:SetWatermark('Angel.lua')
 
 Library.KeybindFrame.Visible = true; -- todo: add a function for this
 
@@ -305,21 +305,7 @@ ThemeManager:ApplyToTab(Tabs['UI Settings'])
 -- You can use the SaveManager:LoadAutoloadConfig() to load a config 
 -- which has been marked to be one that auto loads!
 
---[[
-                          
-                                                                   
-▀███▀▀▀██████▀   ▀███▀███▄   ▀███▀███▀   ▀██▀▀███▀▀▀██▄▀███▀   ▀██▀
-  ██    ▀███       █   ███▄    █   ███▄  ▄█    ██   ▀██▄ ███   ▄█  
-  ██   █  ██       █   █ ███   █    ▀██▄█▀     ██   ▄██   ███ ▄█   
-  ██▀▀██  ██       █   █  ▀██▄ █      ███      ███████     ████    
-  ██   █  ██       █   █   ▀██▄█    ▄█▀▀██▄    ██           ██     
-  ██      ██▄     ▄█   █     ███   ▄█   ▀██▄   ██           ██     
-▄████▄     ▀██████▀▀ ▄███▄    ██ ▄██▄▄  ▄▄███▄████▄       ▄████▄   
-                                                                   
-                                                                   
-     
 
-]]
 -- Toggle
     getgenv().ChatMode = false
         getgenv().PartMode = true
@@ -390,7 +376,7 @@ ThemeManager:ApplyToTab(Tabs['UI Settings'])
         --
         if getgenv().valiansh == true then
                             game.StarterGui:SetCore("SendNotification", {
-                       Title = "MIKO.lua",
+                       Title = "Miko.lua",
                        Text = "Already Loaded!",
                        Duration = 5
             
