@@ -208,7 +208,7 @@ RightGroupBox:AddSlider('FOV', {
 
     Default = 0,
     Min = 0,
-    Max = 150
+    Max = 750,
     Rounding = 0,
 
     Compact = false, -- If set to true, then it will hide the label
@@ -305,7 +305,21 @@ ThemeManager:ApplyToTab(Tabs['UI Settings'])
 -- You can use the SaveManager:LoadAutoloadConfig() to load a config 
 -- which has been marked to be one that auto loads!
 
+--[[
+                          
+                                                                   
+▀███▀▀▀██████▀   ▀███▀███▄   ▀███▀███▀   ▀██▀▀███▀▀▀██▄▀███▀   ▀██▀
+  ██    ▀███       █   ███▄    █   ███▄  ▄█    ██   ▀██▄ ███   ▄█  
+  ██   █  ██       █   █ ███   █    ▀██▄█▀     ██   ▄██   ███ ▄█   
+  ██▀▀██  ██       █   █  ▀██▄ █      ███      ███████     ████    
+  ██   █  ██       █   █   ▀██▄█    ▄█▀▀██▄    ██           ██     
+  ██      ██▄     ▄█   █     ███   ▄█   ▀██▄   ██           ██     
+▄████▄     ▀██████▀▀ ▄███▄    ██ ▄██▄▄  ▄▄███▄████▄       ▄████▄   
+                                                                   
+                                                                   
+     
 
+]]
 -- Toggle
     getgenv().ChatMode = false
         getgenv().PartMode = true
